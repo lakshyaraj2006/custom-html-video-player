@@ -22,10 +22,6 @@ It recreates many features of popular streaming players with a clean UI and smoo
 
 ---
 
-## 🖼 Preview
-
-![preview](./preview.png)
-
 ---
 
 ## 🛠 Tech Stack
@@ -61,7 +57,7 @@ project
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/your-username/custom-html-video-player.git
+git clone https://github.com/lakshyaraj2006/custom-html-video-player.git
 cd custom-html-video-player
 ```
 
