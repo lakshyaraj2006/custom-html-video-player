@@ -1,0 +1,34 @@
+@import 'tailwindcss';
+
+.fa {
+    @apply text-white cursor-pointer;
+}
+
+#video-container:fullscreen {
+    width: 100%;
+    height: 100%;
+}
+
+#video-container:fullscreen video {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* Tooltip container */
+.tooltip {
+    @apply relative flex items-center justify-center;
+}
+
+/* Tooltip text */
+.tooltip-text {
+    @apply absolute top-full mt-2 left-1/2 -translate-x-1/2
+           bg-black/80 text-white text-xs px-2 py-1 rounded
+           opacity-0 pointer-events-none whitespace-nowrap
+           transition-opacity duration-200 z-10;
+}
+
+/* Show tooltip */
+.tooltip:hover .tooltip-text {
+    @apply opacity-100;
+}
